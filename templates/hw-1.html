@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 1</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <header>
+        <h1 class='text-title'>My Images</h1>
+    </header>
+    <div id="imgModal" class="modal">
+        <div class="modal-content">
+            <img class="img-full" src="{{url_for('static', filename='images/dog/image_1.jpg')}}" alt="dog_image">
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_1.jpg')}}" alt="dog_image">
+            </div>
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_2.jpg')}}" alt="dog_image">
+            </div>
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_3.jpg')}}" alt="dog_image">
+            </div>
+        
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_4.jpg')}}" alt="dog_image">
+            </div>
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_5.jpg')}}" alt="dog_image">
+            </div>
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_6.jpg')}}" alt="dog_image">
+            </div>
+        
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_7.jpg')}}" alt="dog_image">
+            </div>
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_8.jpg')}}" alt="dog_image">
+            </div>
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_9.jpg')}}" alt="dog_image">
+            </div>
+        
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_10.jpg')}}" alt="dog_image">
+            </div>
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_11.jpg')}}" alt="dog_image">
+            </div>
+            <div class="item">
+                <img class="img-thumnail" src="{{url_for('static', filename='images/dog/image_12.jpg')}}" alt="dog_image">
+            </div>
+        
+        </div>
+    </main>
+    <footer>
+        <p class="muted text-center">Sponsor by DoBaoHoang</p>
+    </footer>
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
+</body>
+</html>
